@@ -19,6 +19,7 @@ call plug#begin('~/.vim/plugged')
     Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
     Plug 'junegunn/fzf.vim'
     Plug 'preservim/nerdtree'
+    Plug 'lambdalisue/suda.vim'
 call plug#end()
 
 let g:airline#extensions#default#section_truncate_width = {'a': 120}
@@ -33,3 +34,4 @@ let g:ycm_global_ycm_extra_conf = '~/.vim/plugged/YouCompleteMe/third_party/ycmd
 "cmd mapping
 cnoreabbrev fe NERDTree
 cnoreabbrev ff Files
+command W SudaWrite 

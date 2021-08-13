@@ -6,6 +6,17 @@
 
 config_version: 2
 settings:
+  aliases:
+    global:
+      archwiki: open https://wiki.archlinux.org
+      aw: open https://wiki.archlinux.org
+      gh: open github.com
+      github: open github.com
+      q: close
+      qa: quit
+      w: session-save
+      wq: quit --save
+      wqa: quit --save
   colors.tabs.bar.bg:
     global: '#555555'
   colors.tabs.even.bg:
