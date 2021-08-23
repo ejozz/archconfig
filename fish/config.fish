@@ -13,6 +13,10 @@ if status is-interactive
 	alias fe "command ranger"
 	alias install "sudo pacman -S"
 	alias brightness "sudo sh ~/Documents/Scripts/brightness.sh"
+	alias getbrightness "sh ~/Documents/Scripts/getbrightness.sh"
+    alias wifi "networkmanager_dmenu"
+    alias network "networkmanager_dmenu"
+    alias networkmanager "networkmanager_dmenu"
 
 end
 
