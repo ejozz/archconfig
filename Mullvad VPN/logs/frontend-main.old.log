@@ -1,0 +1,9 @@
+[2021-08-26 13:51:38.734][debug] Chromium sandbox is enabled
+[2021-08-26 13:51:38.737][info] Running version 2021.4
+[2021-08-26 13:51:38.737][debug] Creating gui-settings file and writing the default settings to it
+[2021-08-26 13:51:38.846][info] Detected locale: en-US
+[2021-08-26 13:51:38.870][info] Connected to the daemon
+[2021-08-26 13:51:39.395][error] Failed to check autostart file: ENOENT: no such file or directory, access '/home/ejozz/.config/autostart/mullvad-vpn.desktop'
+[2021-08-26 13:52:19.641][info] Disconnected the tunnel
+[2021-08-26 13:52:19.642][info] Unsubscribed from the daemon events
+[2021-08-26 13:52:19.644][debug] GRPC Channel connectivity state changed to 4

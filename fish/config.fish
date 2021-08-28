@@ -4,7 +4,8 @@ if status is-interactive
 	set fish_greeting
     set -gx EDITOR (type -p lvim)
 	starship init fish | source
-	alias ls "command ls -a"
+	alias ls "command lsd -a"
+	alias lsl "command lsd -la"
 	alias vi "command lvim"
 	alias vim "command lvim"
 	alias e "command lvim"
@@ -14,6 +15,7 @@ if status is-interactive
 	alias install "sudo pacman -S"
 	alias brightness "sudo sh ~/Documents/Scripts/brightness.sh"
 	alias getbrightness "sh ~/Documents/Scripts/getbrightness.sh"
+	alias cowfortune "sh ~/Documents/Scripts/cowfortune.sh"
     alias wifi "networkmanager_dmenu"
     alias network "networkmanager_dmenu"
     alias networkmanager "networkmanager_dmenu"

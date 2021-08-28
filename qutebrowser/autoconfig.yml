@@ -35,6 +35,8 @@ settings:
     global: '#101010'
   colors.tabs.selected.odd.fg:
     global: '#00ffdd'
+  content.notifications.enabled:
+    https://www.youtube.com: false
   fonts.default_family:
     global: JetBrainsMono NF
   fonts.default_size:
