@@ -35,6 +35,13 @@ settings:
     global: '#101010'
   colors.tabs.selected.odd.fg:
     global: '#00ffdd'
+  editor.command:
+    global:
+    - alacritty
+    - -e
+    - lvim
+    - -f
+    - '{file}'
   fonts.default_family:
     global: JetBrainsMono NF
   fonts.default_size:

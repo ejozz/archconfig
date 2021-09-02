@@ -63,6 +63,13 @@ lvim.plugins = {
         require"lsp_signature".setup() 
      end
     },
+    {"norcalli/nvim-colorizer.lua",
+     config = function() 
+        require"colorizer".setup(
+            nil, 
+            {names = false, RGB = false}) 
+     end
+    },
     {"karb94/neoscroll.nvim",
      event = "WinScrolled",
      config = function()

@@ -182,7 +182,7 @@ label-visible-underline = ${colors.background}
 label-visible-padding = 2
 
 ; urgent = Unselected tag with window that has urgency hint set
-label-urgent = 
+label-urgent = 
 label-urgent-background = ${colors.background}
 label-urgent-padding = 2
 

@@ -3,7 +3,7 @@ add_newline = false
 format = "$all"
 
 [character]
-success_symbol = "[❯❯❯](#0022ff)"
+success_symbol = "[ ❯❯❯](#0022ff)"
 
 [line_break]
 disabled = true
@@ -22,6 +22,8 @@ format = '\[[$symbol($version)]($style)\]'
 
 [directory]
 read_only = " "
+style = "bold fg:#00cfff"
+truncation_length = 5
 
 [docker_context]
 symbol = " "
@@ -106,7 +108,7 @@ format = '\[[$symbol($version)]($style)\]'
 format = '\[[$symbol($version)]($style)\]'
 
 [cmd_duration]
-format = "[⏱ $duration]($style)"
+format = " [$duration]($style)"
 
 [crystal]
 format = '\[[$symbol($version)]($style)\]'
@@ -161,8 +163,8 @@ format = '\[[$time]($style)\]'
 
 [username]
 show_always = true
-style_user = "#00e5ff bold"
-format = '\[[$user]($style)\]'
+style_user = "#0022ff bold"
+format = '\[[$user]($style)\] '
 
 [vagrant]
 format = '\[[$symbol($version)]($style)\]'
