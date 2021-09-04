@@ -6,45 +6,5 @@
 
 config_version: 2
 settings:
-  aliases:
-    global:
-      archwiki: open https://wiki.archlinux.org
-      aw: open https://wiki.archlinux.org
-      gh: open github.com
-      github: open github.com
-      q: close
-      qa: quit
-      w: session-save
-      wq: quit --save
-      wqa: quit --save
-  colors.tabs.bar.bg:
-    global: '#555555'
-  colors.tabs.even.bg:
-    global: '#3a3a3a'
-  colors.tabs.odd.bg:
-    global: '#262626'
-  colors.tabs.pinned.selected.even.bg:
-    global: black
-  colors.tabs.pinned.selected.odd.bg:
-    global: black
-  colors.tabs.selected.even.bg:
-    global: '#101010'
-  colors.tabs.selected.even.fg:
-    global: '#00ffdd'
-  colors.tabs.selected.odd.bg:
-    global: '#101010'
-  colors.tabs.selected.odd.fg:
-    global: '#00ffdd'
-  editor.command:
-    global:
-    - alacritty
-    - -e
-    - lvim
-    - -f
-    - '{file}'
-  fonts.default_family:
-    global: JetBrainsMono NF
-  fonts.default_size:
-    global: 12pt
-  tabs.width:
-    global: 15%
+  backend:
+    global: webengine

@@ -16,6 +16,7 @@ if status is-interactive
 	alias getbrightness "sh ~/Documents/Scripts/getbrightness.sh"
 	alias change_brightness "sh ~/Documents/Scripts/changebrightness.sh"
 	alias change_volume "sh ~/Documents/Scripts/changevolume.sh"
+	alias cowfortune "sh ~/Documents/Scripts/cowfortune.sh"
 	alias toggle_mute "pulsemixer --toggle-mute"
     alias wifi "networkmanager_dmenu"
     alias network "networkmanager_dmenu"
